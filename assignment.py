@@ -81,7 +81,7 @@ def arithmetic_ops(a, b):
     Returns:
         dict: Results of arithmetic operations
     """
-    return {"sum": a+b, "difference": a-b, "product": a*b, "quotient": a/b if b !=0 else 0}
+    return {"sum": a+b, "difference": a-b, "product": a*b, "quotient": a/b if b !=0 else "Division by Zero Error"}
 
 def logical_ops(x, y):
     """
